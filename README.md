@@ -1,3 +1,9 @@
+# Deprecated
+
+#### This version of Chosen is not currently under active development while we decide on its future direction.
+
+---
+
 # Chosen
 
 Chosen is a library for making long, unwieldy select boxes more user friendly.
@@ -13,8 +19,7 @@ https://github.com/harvesthq/chosen/releases/
 
 ### Package managers
 
-Chosen is available through [Bower](https://bower.io/) and [npm](https://www.npmjs.com),
-_however, the package names are not the same_.
+Chosen is available through [Bower](https://bower.io/), [npm](https://www.npmjs.com), and [Composer](https://getcomposer.org/), _however, the package names are not the same_.
 
 To install with Bower:
 
@@ -26,6 +31,12 @@ To install with npm:
 
 ```
 npm install chosen-js
+```
+
+To install with Composer:
+
+```
+composer require harvesthq/chosen
 ```
 
 The compiled files for these packages are automatically generated and stored in a [2nd Chosen repository](https://github.com/harvesthq/chosen-package). No pull requests will be accepted to that repository.
